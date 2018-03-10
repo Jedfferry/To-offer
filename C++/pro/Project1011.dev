@@ -1,6 +1,6 @@
 [Project]
-FileName=Project1205-1.dev
-Name=Project1205-1
+FileName=Project1011.dev
+Name=Project1011
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=main1205-1.cpp
+FileName=main1011.cpp
 CompileCpp=1
 Folder=
 Compile=1

@@ -1,17 +1,17 @@
-# Project: Project0312-2
-# Makefile created by Dev-C++ 5.10
+# Project: Project0313-1
+# Makefile created by Dev-C++ 5.11
 
-CPP      = g++.exe -D__DEBUG__
-CC       = gcc.exe -D__DEBUG__
+CPP      = g++.exe
+CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main0302-2.o
-LINKOBJ  = main0302-2.o
-LIBS     = -L"D:/ruanjian/Dev-Cpp/MinGW64/lib" -L"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
-INCS     = -I"D:/ruanjian/Dev-Cpp/MinGW64/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
-CXXINCS  = -I"D:/ruanjian/Dev-Cpp/MinGW64/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
-BIN      = Project0312-2.exe
-CXXFLAGS = $(CXXINCS) -g3
-CFLAGS   = $(INCS) -g3
+OBJ      = main0313-1.o
+LINKOBJ  = main0313-1.o
+LIBS     = -L"D:/ruanjian/Dev-Cpp/MinGW64/lib" -L"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/ruanjian/Dev-Cpp/MinGW64/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/ruanjian/Dev-Cpp/MinGW64/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Project0313-1.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
 RM       = rm.exe -f
 
 .PHONY: all all-before all-after clean clean-custom
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-main0302-2.o: main0302-2.cpp
-	$(CPP) -c main0302-2.cpp -o main0302-2.o $(CXXFLAGS)
+main0313-1.o: main0313-1.cpp
+	$(CPP) -c main0313-1.cpp -o main0313-1.o $(CXXFLAGS)

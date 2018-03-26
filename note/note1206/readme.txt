@@ -1,0 +1,1 @@
+函数SelectMink实现求数组r[n]中第k小元素

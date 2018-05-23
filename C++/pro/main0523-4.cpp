@@ -30,16 +30,17 @@ int main(int argc, char** argv) {
 			}
 			else
 			{
-				int i=0;
-				for(i;i<sum;i++)
+				int j=0;
+				cout<<ch[i][j];
+				for(j=1;j<sum;j++)
 				{
-					if(i%8==0)
+					if(j%8==0)
 						cout<<endl;
-					cout<<ch[i];
+					cout<<ch[i][j];
 				}
-				if(i%8!=0)
+				if(j%8!=0)
 				{
-					for(int k=i%8;k<8;k++)
+					for(int k=j%8;k<8;k++)
 					{
 						cout<<"0";
 					}

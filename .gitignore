@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+C++/pro/Makefile.win
+C++/pro/main0917-1.cpp

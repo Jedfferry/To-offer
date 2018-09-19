@@ -1,6 +1,6 @@
 [Project]
-FileName=Project0917-1.dev
-Name=Project0917-1
+FileName=Project0919-1.dev
+Name=Project0919-1
 Type=1
 Ver=2
 ObjFiles=
@@ -28,12 +28,8 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-<<<<<<< HEAD
 CompilerSettings=0000000000000000001000000
 UnitCount=1
-=======
-CompilerSettings=0000000000000000000000000
->>>>>>> a03da4451f82ff3c3cf54893bc7c42d88b69d3ad
 
 [VersionInfo]
 Major=1
@@ -54,9 +50,8 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-<<<<<<< HEAD
 [Unit1]
-FileName=main0917-1.cpp
+FileName=main0919-1.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -65,5 +60,3 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-=======
->>>>>>> a03da4451f82ff3c3cf54893bc7c42d88b69d3ad

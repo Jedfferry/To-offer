@@ -1,15 +1,15 @@
-# Project: Project0917-1
+# Project: Project1016-11
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main0917-1.o
-LINKOBJ  = main0917-1.o
+OBJ      = main1016-11.o
+LINKOBJ  = main1016-11.o
 LIBS     = -L"D:/ruanjian/Dev-Cpp/MinGW64/lib" -L"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"D:/ruanjian/Dev-Cpp/MinGW64/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"D:/ruanjian/Dev-Cpp/MinGW64/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = Project0917-1.exe
+BIN      = Project1016-11.exe
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
 RM       = rm.exe -f
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-main0917-1.o: main0917-1.cpp
-	$(CPP) -c main0917-1.cpp -o main0917-1.o $(CXXFLAGS)
+main1016-11.o: main1016-11.cpp
+	$(CPP) -c main1016-11.cpp -o main1016-11.o $(CXXFLAGS)

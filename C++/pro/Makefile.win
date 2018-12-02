@@ -1,17 +1,17 @@
-# Project: Project1016-11
+# Project: Project1202-1
 # Makefile created by Dev-C++ 5.11
 
-CPP      = g++.exe
-CC       = gcc.exe
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = main1016-11.o
-LINKOBJ  = main1016-11.o
-LIBS     = -L"D:/ruanjian/Dev-Cpp/MinGW64/lib" -L"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+OBJ      = main1202-1.o
+LINKOBJ  = main1202-1.o
+LIBS     = -L"D:/ruanjian/Dev-Cpp/MinGW64/lib" -L"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
 INCS     = -I"D:/ruanjian/Dev-Cpp/MinGW64/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"D:/ruanjian/Dev-Cpp/MinGW64/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/ruanjian/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = Project1016-11.exe
-CXXFLAGS = $(CXXINCS) 
-CFLAGS   = $(INCS) 
+BIN      = Project1202-1.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
 RM       = rm.exe -f
 
 .PHONY: all all-before all-after clean clean-custom
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-main1016-11.o: main1016-11.cpp
-	$(CPP) -c main1016-11.cpp -o main1016-11.o $(CXXFLAGS)
+main1202-1.o: main1202-1.cpp
+	$(CPP) -c main1202-1.cpp -o main1202-1.o $(CXXFLAGS)
